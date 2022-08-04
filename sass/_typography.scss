@@ -1,0 +1,28 @@
+
+h1,h2,h3,h4,h5,h6{
+  color: $heading-color;
+  font-weight: bold;
+
+}
+.text{
+  font-weight: 400;
+  line-height: calc(30 / 16);
+}
+.text-medium{
+  font-weight: 500;
+}
+.text-smail{
+  font-size: 14px;
+  line-height: calc(30 / 14);
+}
+.text-heading{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: calc(30 / 18);
+}
+@media screen and (max-width: 767.98px) {
+  .heading{
+    font-size: 30px;
+  }
+}
